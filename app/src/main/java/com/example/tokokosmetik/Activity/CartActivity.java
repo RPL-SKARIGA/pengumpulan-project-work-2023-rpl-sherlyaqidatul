@@ -89,6 +89,7 @@ public class CartActivity extends AppCompatActivity {
                             }
 
                             String address = addresses.get(0).getAddressLine(0);
+                            addressET.setText(address);
                             Log.d("LOCATION", address);
                         }
                     }
